@@ -71,6 +71,8 @@
 		};
 
 		var printOutput = function (list) {
+			// sort list for output
+			list = list.sort();
 			outputDiv.innerHTML = list.toString().replace(/,/g, '<br />');
 		};
 
